@@ -1,0 +1,207 @@
+{
+  "CAMERA": "PERSPECTIVE",
+  "DECOR": {
+    "Label": {
+      "Footer": "",
+      "Header": "Ejercicio 4\n"
+    },
+    "NorthArrow": {
+      "color": "0xcdcdcd",
+      "visible": true
+    }
+  },
+  "LAYERS": [
+    {
+      "geomType": 3,
+      "layerId": "usos_disuelto_cb5b4e67_9dee_4916_afc6_2d48037c2431",
+      "name": "Usos_suelo",
+      "properties": {
+        "checkBox_Clip": true,
+        "checkBox_ExportAttrs": false,
+        "checkBox_Visible": true,
+        "comboBox_Label": null,
+        "comboBox_ObjectType": "Polygon",
+        "comboBox_altitudeMode": null,
+        "fieldExpressionWidget_altitude": "0",
+        "labelHeightWidget": {
+          "comboData": 0,
+          "comboText": "Absolute",
+          "editText": "3222",
+          "type": 6
+        },
+        "radioButton_Expression": true,
+        "radioButton_IntersectingFeatures": true,
+        "styleWidget0": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 2
+        },
+        "styleWidget1": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 5
+        },
+        "styleWidget2": {},
+        "styleWidget3": {},
+        "styleWidget4": {},
+        "styleWidget5": {}
+      },
+      "visible": true
+    },
+    {
+      "geomType": 3,
+      "layerId": "Dissolved_4d7f0a9f_517f_4d7a_a87d_de70f6fdba81",
+      "name": "Masas_forestales",
+      "properties": {
+        "checkBox_Clip": true,
+        "checkBox_ExportAttrs": false,
+        "checkBox_Visible": true,
+        "comboBox_Label": null,
+        "comboBox_ObjectType": "Polygon",
+        "comboBox_altitudeMode": null,
+        "fieldExpressionWidget_altitude": "0",
+        "labelHeightWidget": {
+          "comboData": 0,
+          "comboText": "Absolute",
+          "editText": "3222",
+          "type": 6
+        },
+        "radioButton_Expression": true,
+        "radioButton_IntersectingFeatures": true,
+        "styleWidget0": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 2
+        },
+        "styleWidget1": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 5
+        },
+        "styleWidget2": {},
+        "styleWidget3": {},
+        "styleWidget4": {},
+        "styleWidget5": {}
+      },
+      "visible": true
+    },
+    {
+      "geomType": 3,
+      "layerId": "Benabarre_Graus_ae4da1f9_c1c8_440e_a21e_858a36102944",
+      "name": "Benabarre_Graus",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "raster_4ca1d75a_0794_45a4_813d_1b9ef0475ed6",
+      "name": "MDE",
+      "properties": {
+        "checkBox_Clip": false,
+        "checkBox_Frame": false,
+        "checkBox_Shading": true,
+        "checkBox_Sides": true,
+        "checkBox_Surroundings": false,
+        "checkBox_TransparentBackground": false,
+        "checkBox_Visible": true,
+        "colorButton_Color": "0x000000",
+        "comboBox_ClipLayer": "usos_disuelto_cb5b4e67_9dee_4916_afc6_2d48037c2431",
+        "comboBox_TextureSize": 100,
+        "horizontalSlider_DEMSize": 2,
+        "lineEdit_ImageFile": "",
+        "radioButton_MapCanvas": true,
+        "spinBox_Opacity": 100,
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3,
+        "toolButton_SideColor": "0xccbbaa"
+      },
+      "visible": true
+    },
+    {
+      "geomType": 0,
+      "layerId": "mde_hillshade_75ea69a5_913d_4fbf_9571_83fb75e56b88",
+      "name": "mde_hillshade",
+      "properties": {
+        "checkBox_Clip": false,
+        "checkBox_Frame": false,
+        "checkBox_Shading": true,
+        "checkBox_Sides": true,
+        "checkBox_Surroundings": false,
+        "checkBox_TransparentBackground": false,
+        "checkBox_Visible": true,
+        "colorButton_Color": "0x000000",
+        "comboBox_ClipLayer": "usos_disuelto_cb5b4e67_9dee_4916_afc6_2d48037c2431",
+        "comboBox_TextureSize": 100,
+        "horizontalSlider_DEMSize": 2,
+        "lineEdit_ImageFile": "",
+        "radioButton_MapCanvas": true,
+        "spinBox_Opacity": 100,
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3,
+        "toolButton_SideColor": "0xccbbaa"
+      },
+      "visible": true
+    },
+    {
+      "geomType": 0,
+      "layerId": "MDE_25830_ccfb5370_3c55_4a47_8a9d_b8a7a570e555",
+      "name": "MDE_25830",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "OUTPUT_317a854f_ba08_4e21_b323_a3070d081caf",
+      "name": "Hillshade",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "eudem_4258_clipsqr_es241_lossless_bb9a6041_bd77_4f0c_98cf_3c9826a7b46d",
+      "name": "eudem_4258_clipsqr_es241_lossless",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 3,
+      "layerId": "especies_disuelto_2a1e4257_91e6_4050_b4bc_f7c12156b113",
+      "name": "especies_disuelto",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 3,
+      "layerId": "QGIS_4cf8db60_4ec8_4ed5_a250_478d82b7d07f",
+      "name": "QGIS",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 3,
+      "layerId": "QGIS_26d5dd80_4b56_46ca_806b_6d33fa72aafa",
+      "name": "QGIS copy",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "FLAT",
+      "name": "Flat Plane",
+      "properties": {},
+      "visible": false
+    }
+  ],
+  "SCENE": {
+    "checkBox_autoZShift": false,
+    "colorButton_Color": "0x000000",
+    "comboBox_MaterialType": 0,
+    "lineEdit_BaseSize": "100",
+    "lineEdit_zFactor": "3.0",
+    "lineEdit_zShift": "0"
+  }
+}
